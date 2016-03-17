@@ -1,5 +1,1 @@
-#!/usr/bin/python
-
-print "Olá mundo"
-
-# Final do arquivo
+testando 2
