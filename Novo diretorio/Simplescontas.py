@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # *-* coding: latin1 *-*
+# By: Rafael Gonçalves de Matos
 
 # Programa simples, rastreado pelo github
 print 'Operacoes simples.'
