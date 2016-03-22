@@ -16,4 +16,11 @@ elif 21 <= temp <= 25 :
 elif 26 <= temp <= 35 :
     print "Muito quente, vai para praia"
 else :
-    print "Quente demais, vai para casa!"
+    print "Quente demais, vai para casa!\
+    "
+
+# Testando outro recurso que entrou na versao 2.5
+test = 20 if temp <= 20 else 30
+
+print 'Valor da variavel com fluxo dentro da variavel - test = 20 if temp <= 20 else 30'
+print 'Valor: ', test
