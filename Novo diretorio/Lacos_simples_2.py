@@ -2,18 +2,10 @@
 # *-* coding: latin1 *-*
 
 # Criando estrutura de lacos com o while
+# Soma de 0 a 99
 
-# Realizando some de forma simples.
+# Desclaracao de variavel
 s = 0
+x = 1
 
-for x in range(1,100):
-    s = s + x
-
-    # Utilizando o break caso o resultado seja igual a dois.
-    if s == 2:
-        break
-
-else:
-    print 'Terminou ?'
-
-print s
+while x < 
