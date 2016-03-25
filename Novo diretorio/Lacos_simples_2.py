@@ -5,7 +5,10 @@
 # Soma de 0 a 99
 
 # Desclaracao de variavel
-s = 0
+s = int(raw_input("Digite o numero de começo: "))
 x = 1
 
-while x < 
+while x < 100 :
+    s = s + x
+    x = x + 1
+print s
