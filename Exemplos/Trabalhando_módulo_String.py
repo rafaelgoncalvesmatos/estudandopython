@@ -1,6 +1,11 @@
 #/usr/bin/python
 # *-* coding:latin1 *-*
 
+for i in range(1,100) :
+    for a in range (1,5):
+        print i , a 
+        print 'Tudo certo'
+
 # Declaração de módulos
 import string
 

@@ -9,3 +9,5 @@ msg = '{0} é {1} do {2}'
 
 for nome, sobrenome in outros :
     print (msg.format(nome,sobrenome,outros))
+
+print 'Olá segue nota'
