@@ -12,7 +12,7 @@ print 'No dia ', now.day
 
 # varialvel
 
-print str(now.day) + '/' + now.month + '/' + now.year
+print str(now.day) + '/' + str(now.month) + '/' + str(now.year)
 
 data = now.day
 print data
