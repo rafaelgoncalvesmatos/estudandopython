@@ -12,7 +12,7 @@ print 'No dia ', now.day
 
 # varialvel
 
-print str(now.day) + '/' + str(now.month) + '/' + str(now.year)
-
+print 'Exibindo com o operador + e atribuindo a cada variavel o tipo string: ',str(now.day) + '/' + str(now.month) + '/' + str(now.year)
+print 'Exibindo com o operador % fica mais facil de trabalhar - %s, segue: %s-%s-%s' % (now.day,now.month,now.year)
 data = now.day
 print data
