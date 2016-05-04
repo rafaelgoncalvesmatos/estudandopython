@@ -4,8 +4,15 @@
 from datetime import datetime
 now = datetime.now()
 
-current_year = now.years
-current_month = now.month
-current_day = now.day
+print 'Para ver todas informações de data ', now, ' \
+'
+print 'Este ano de ', now.year
+print 'Estamos no mês ', now.month
+print 'No dia ', now.day
 
-print current_year
+# varialvel
+
+print str(now.day) + '/' + now.month + '/' + now.year
+
+data = now.day
+print data
