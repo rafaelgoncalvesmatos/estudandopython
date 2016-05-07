@@ -16,3 +16,6 @@ print 'Exibindo com o operador + e atribuindo a cada variavel o tipo string: ',s
 print 'Exibindo com o operador fica mais facil de trabalhar - segue: %s-%s-%s' % (now.day,now.month,now.year), 'Tudo com %s'
 
 print 'Trabalhando com hora: %s:%s:%s' % (now.hour, now.minute, now.second)
+
+# FIM
+
