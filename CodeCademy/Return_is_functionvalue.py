@@ -11,6 +11,8 @@ def funcao_principal(answer) :
 	else : 
 		return 0 
 
+# Chamando a funcao com o valores definidos para a variavel "answer"
 print funcao_principal(4)
 print funcao_principal(5)
 print funcao_principal(6)
+
