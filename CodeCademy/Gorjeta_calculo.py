@@ -15,7 +15,8 @@ def tip() :
 	return bill
 
 # Variaveis
-meal_cost = raw_input("Qual o valor do consumo: ")
+meal_cost = 10
+# raw_input("Qual o valor do consumo: ")
 meal_with_tax = tax(meal_cost)
 meal_with_tip = tip(meal_with_tax)
 
