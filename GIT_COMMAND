@@ -1,0 +1,72 @@
+############################### WORK IN HELP ###########################
+
+# Obtendo ajuda do parametro show
+# git show --help
+
+# Obtendo ajuda do parametro diff
+# git diff --help
+
+# Obtendo ajuda
+# git [PARAMETER] --help
+
+############################### WORK IN SYNC ###########################
+
+# Verifica se a alguma atualização para ser atualizado em seu stage
+# git pull
+
+# Envia suas alteracoes COMMITADAS para o resitorio principal
+# git push origin master
+
+# Envia suas alteracoes para o branch chamado "dev_paralelo"
+# git push origin dev_paralelo
+
+############################### WORK IN FILE ###########################
+
+# Adiciona arquivo e diretorio no repositorio stage
+# git add [FILE]
+
+# Remove arquivo e diretorio do repositorio stage
+# git rm [FILE]
+
+# Move ou renomeia arquivo ou diretorio
+# git mv [FILE]
+ 
+############################### WORK IN COMMIT ###########################
+
+# Verificando o status do repositorio
+# git status
+
+# Comitando todos as alterações realizadas
+# git commit -am "Commit description"
+
+# Comitando apenas alterações em um arquivo especifico
+# git commit [FILE] -m "Commit description"
+
+# Verificando todos os commit
+# git log 
+
+# Mostra todos os commit com seus respectivos arquivos afetados
+# git log --state
+
+# Mostra os detalhes do ultimo commit
+# git show 
+
+# Mostra os detalhes do commit especifico
+# git show [ID]
+
+# Compara commit especificados
+# git diff [ID] [ID]
+
+# Mostra as alteracoes realizadas comparando com as antigas
+# git diff 
+
+############################### WORK IN SNAPSHOT ###########################
+
+# Retorna o repositorio stage ao commit solicitado - Podendo ser recursivo com o atual sobrescrito
+# git checkout [ID]
+
+# Verifica os arquivos alterados após o reset - qualquer modificacao será notificado aqui
+# git reset
+
+# Retorna o arquivo a configuracao antiga do ultimo commit - invalidando qualquer alteracao
+# git reset --hard
