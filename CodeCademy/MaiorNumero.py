@@ -12,6 +12,14 @@ print "O valor menor dos numeros é: ", min(num1, num2, num3)
 # positivo = raw_input("Digite um numero negativo e será transformado em positivo: ")
 # print abs(positivo)
 
+# Comparando
+# def e_numerico(num) : 
+#	return type(num) == int or type(num) == float 
+
 # Proxima funcao retorna o tipo do caractere digitado
 type1 = raw_input("Que tipo de valor vc digitara agora: ")
 print type(type1)
+
+# is_numeric(type1)
+
+
